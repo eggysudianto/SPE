@@ -1,6 +1,5 @@
 <?php
-$array = array(11, 13, 15, 19, 9, 13, -21);
-echo find($array);
+echo find([11, 13, 15, 19, 9, 13, -21]);
 
 function find($angka) {
   $odds = [];
